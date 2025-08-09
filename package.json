@@ -1,8 +1,8 @@
 {
-  "name": "f3-lang",
-  "displayName": "f3-lang",
+  "name": "f3-vscode",
+  "displayName": "f3-vscode",
   "description": "Language support for framework3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/framework3/f3-vscode.git"
@@ -38,5 +38,5 @@
     "url": "https://github.com/framework3/f3-vscode/issues"
   },
   "homepage": "https://github.com/framework3/f3-vscode#readme",
-  "icon": "icon.png"
+  "icon": "icon.20250809.png"
 }
