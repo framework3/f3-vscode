@@ -1,0 +1,42 @@
+{
+  "name": "f3-lang",
+  "displayName": "f3-lang",
+  "description": "Language support for framework3",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/framework3/f3-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "f3",
+      "aliases": ["f3", "f3"],
+      "extensions": [".f3"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "f3",
+      "scopeName": "source.f3",
+      "path": "./syntaxes/f3.tmLanguage.json"
+    }]
+  },
+  "publisher": "protocol-seven",
+  "license": "MIT",
+  "keywords": [
+    "language",
+    "framework3",
+    "syntax",
+    "highlighting"
+  ],
+  "bugs": {
+    "url": "https://github.com/framework3/f3-vscode/issues"
+  },
+  "homepage": "https://github.com/framework3/f3-vscode#readme",
+  "icon": "icon.png"
+}
